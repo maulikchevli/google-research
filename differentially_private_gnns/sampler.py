@@ -21,7 +21,7 @@ import chex
 import jax
 import numpy as np
 
-from differentially_private_gnns import dataset_readers
+import dataset_readers
 
 
 Node = Union[int, str]
